@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+.intro {
+    background-color: #352D71;
+    color : white;
+    padding : 0 25% 0 25%;
+}
+
+.title {
+    margin: 0;
+}
+
+.bandeau {
+    background-image: url("../img/background.jpg");
+    padding: 75px;
+    text-align : center;
+    color: white;
+}
+
+.corps {
+    padding : 15px 25% 15px 25%;
+    background-color: #F6F7F1;
+}
+
+.form {
+    display: inline-block;
+    width : 27%;
+    padding: 5px;
+}
+
+form {
+    border : 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.inputform {
+    border-radius : 5px;
+    width: 100%;
+    padding: 5px;
+}
+
+.textareaform {
+    border-radius : 5px;
+    width: 98%;
+    height: 200px;
+}
+
+.buttonform {
+    background-color: green;
+    border: 0;
+    padding: 5px;
+}
+
+.slider {
+    display: inline-block;
+    width : 70%;
+    padding: 5px;
+}
+.img {
+    width: 100%;
+}
+
+.bottom {
+    padding : 15px 25% 15px 25%;
+    background-color: #DDDDDD;
+}
+
+.text {
+    display: inline-block;
+    width: 73%;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.logochat {
+    display: inline-block;
+    width: 24%;
+}
+
+.logo {
+    width: 100%;
+    background-color: purple;
+}
+
+.outro {
+    background-color: #352D71;
+    color : white;
+}
