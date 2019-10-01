@@ -26,7 +26,7 @@ body {
 
 .form {
     display: inline-block;
-    width : 27%;
+    width : 25%;
     padding: 5px;
 }
 
@@ -89,4 +89,28 @@ form {
 .outro {
     background-color: #352D71;
     color : white;
+    padding-left: 96%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:11px;
+}
+
+@media screen and (max-width: 992px) {
+    body, form, input, select, textarea {
+        padding: 5px;
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    .intro, .corps, .bottom {
+        padding: 0;
+    }
+    .form, .slider, .logochat, .text {
+        width: 80%;
+        padding: 0 10% 10px 10%;
+    }
+    .outro {
+        padding-left: 90%;
+    }
 }
