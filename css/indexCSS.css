@@ -1,15 +1,19 @@
-body {
+body, .title {
     margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
 }
 
-.intro {
-    background-color: #352D71;
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.bg-purple {
+    background-color: purple;
     color : white;
-    padding : 0 25% 0 25%;
-}
-
-.title {
-    margin: 0;
 }
 
 .bandeau {
@@ -20,17 +24,23 @@ body {
 }
 
 .corps {
-    padding : 15px 25% 15px 25%;
     background-color: #F6F7F1;
+    padding: 10px;
 }
 
 .form {
     display: inline-block;
+    vertical-align: text-bottom;
+    margin-bottom: 35px;
     width : 25%;
-    padding: 5px;
+}
+
+.littleTitle {
+    margin: 10px;
 }
 
 form {
+    vertical-align: central;
     border : 1px solid lightgray;
     background-color: white;
     border-radius: 5px;
@@ -46,7 +56,7 @@ form {
 .textareaform {
     border-radius : 5px;
     width: 98%;
-    height: 200px;
+    height: 150px;
 }
 
 .buttonform {
@@ -56,16 +66,13 @@ form {
 }
 
 .slider {
+    box-sizing: border-box;
     display: inline-block;
     width : 70%;
     padding: 5px;
 }
-.img {
-    width: 100%;
-}
 
 .bottom {
-    padding : 15px 25% 15px 25%;
     background-color: #DDDDDD;
 }
 
@@ -86,22 +93,16 @@ form {
     background-color: purple;
 }
 
-.outro {
-    background-color: #352D71;
+footer {
     color : white;
-    padding-left: 96%;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size:11px;
+    text-align: right;
 }
 
-@media screen and (max-width: 992px) {
-    body, form, input, select, textarea {
+@media screen and (max-width: 1100px) {
+    form, input, select, textarea {
         padding: 5px;
-        font-size: 30px;
-    }
-    h1 {
-        font-size: 100px;
     }
     .intro, .corps, .bottom {
         padding: 0;
@@ -110,7 +111,14 @@ form {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-    .outro {
-        padding-left: 90%;
+
+    footer {
+        padding-left : 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        padding-left: 70%;
     }
 }
