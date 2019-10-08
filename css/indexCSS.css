@@ -7,7 +7,7 @@ img {
 }
 
 .container {
-    width: 1080px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -111,14 +111,7 @@ footer {
         width: 80%;
         padding: 0 10% 10px 10%;
     }
-
-    footer {
-        padding-left : 80%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    footer {
-        padding-left: 70%;
+    .container {
+        width: 100%;
     }
 }

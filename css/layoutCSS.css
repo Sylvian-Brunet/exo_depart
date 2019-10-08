@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.inner {
+    width: 100%;
+}
+
+.block {
+    background-color: blue;
+    color: white;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.form {
+    background-color: red;
+    color: white;
+    margin: 5px 0;
+    padding: 5px 0;
+    height: 100px;
+    vertical-align:top;
+}
+
+.img {
+    background-color: red;
+    color: white;
+    margin: 5px 0;
+    vertical-align:top;
+}
+
+.text {
+    background-color: red;
+    color: white;
+    margin: 5px 0;
+    padding: 5px 0;
+    height: 100px;
+    vertical-align:top;
+}
+
+.img1 {
+    background-color: red;
+    color: white;
+    margin: 5px 0;
+    vertical-align:top;
+}
+
+@media screen and (min-width: 480px) {
+    .inner {
+        width: 480px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .inner {
+        width: 576px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .inner {
+        width: 768px;
+    }
+    .form {
+        width: 200px;
+        display: inline-block;
+    }
+    .img {
+        width: 564px;
+        display: inline-block;
+    }
+    .text {
+        width: 564px;
+        display: inline-block;
+    }
+    .img1 {
+        width: 200px;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .inner {
+        width: 992px;
+    }
+    .form {
+        width: 250px;
+        display: inline-block;
+    }
+    .img {
+        width: 738px;
+        display: inline-block;
+    }
+    .text {
+        width: 738px;
+        display: inline-block;
+    }
+    .img1 {
+        width: 250px;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .inner {
+        width: 1200px;
+    }
+    .form {
+        width: 350px;
+        display: inline-block;
+    }
+    .img {
+        width: 846px;
+        display: inline-block;
+    }
+    .text {
+        width: 946px;
+        display: inline-block;
+    }
+    .img1 {
+        width: 250px;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .inner {
+        width: 1600px;
+    }
+    .form {
+        width: 608px;
+        display: inline-block;
+    }
+    .img {
+        width: 988px;
+        display: inline-block;
+    }
+    .text {
+        width: 1246px;
+        display: inline-block;
+    }
+    .img1 {
+        width: 350px;
+        display: inline-block;
+    }
+}
